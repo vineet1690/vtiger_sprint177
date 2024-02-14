@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="opportunities_module.CreateOpportunitiesTest">
+        <methods>
+          <include name="acConfig"/>
+          <include name="amConfig"/>
+          <include name="bcConfig"/>
+          <include name="asConfig"/>
+          <include name="createOpportunitiesWithOrganizationNameAndCampaignNameAndVerifyTest"/>
+          <include name="bsConfig"/>
+          <include name="bmConfig"/>
+        </methods>
+      </class> <!-- opportunities_module.CreateOpportunitiesTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
