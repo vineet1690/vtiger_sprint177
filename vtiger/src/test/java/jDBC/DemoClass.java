@@ -7,7 +7,11 @@ public class DemoClass {
 		System.out.println("demo push from new branch");
 		System.out.println("demo changes in global");
 		System.out.println("demo changes 2 in global");
+<<<<<<< HEAD
 		System.out.println("demo changes 2.5 in local");
+=======
+		System.out.println("demo changes 3 in global");
+>>>>>>> c19d743649bd691ed9d9ca58feba4c68e9f49fea
 		
 		
 	}
